@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rockwell+Extra+Bold:wght@700&family=Kristen+ITC:wght@400&display=swap');
+
+/* Gaya global untuk body */
+body {
+    background-color: #1565C0; /* Warna biru denim */
+    color: #B0BEC5; /* Warna abu lunak untuk isi */
+    font-family: 'Kristen ITC', sans-serif; /* Font isi Kristen ITC */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    color: #FFB6C1; /* Warna pink terang untuk judul */
+    font-family: 'Rockwell Extra Bold', sans-serif; /* Font Rockwell Extra Bold untuk judul */
+    font-size: 36px;
+}
+
+/* Menu Navigasi */
+nav {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Gaya untuk link di menu navigasi */
+a {
+    color: #FFB6C1; /* Warna pink terang */
+    text-decoration: none;
+    font-family: 'Mistral', cursive; /* Font Mistral untuk menu navigasi */
+    font-size: 22px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Subjudul di setiap menu */
+h2 {
+    color: ivory; /* Warna ivory untuk subjudul */
+    font-family: 'Ravie', sans-serif; /* Font Ravie untuk subjudul */
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: ivory; /* Warna ivory untuk sub-subjudul */
+    font-family: 'Ravie', sans-serif; /* Font Ravie untuk sub-subjudul */
+    font-size: 22px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Gaya textarea */
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #FFB6C1; /* Warna pink terang untuk border textarea */
+    border-radius: 5px;
+}
+
+/* Gaya tombol */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #FFB6C1; /* Warna pink terang untuk tombol */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #FF69B4; /* Warna sedikit lebih terang saat hover */
+}
+
+/* Gaya tersembunyi untuk elemen yang disembunyikan */
+.hidden {
+    display: none;
+}
+
+#thankYouMessage {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.category {
+    margin-top: 20px;
+}
